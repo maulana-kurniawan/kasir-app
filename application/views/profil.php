@@ -28,7 +28,7 @@
 							<div class="card card-green card-outline">
 								<div class="card-body box-profile">
 									<div class="text-center">
-										<img class="profile-user-img img-fluid img-circle" src="<?= base_url('assets/img/') . $this->session->userdata('foto'); ?>" alt="User profile picture">
+										<img class="profile-user-img img-fluid img-circle" src="<?= base_url('assets/img/' . $this->session->userdata('foto')); ?>" alt="User profile picture">
 									</div>
 									<ul class="list-group list-group-unbordered mt-3 mb-3">
 										<li class="list-group-item">
@@ -80,6 +80,10 @@
 						<div class="form-group">
 							<label>Password</label>
 							<input id="password" name="password" type="password" class="form-control" placeholder="Masukkan password baru">
+						</div>
+						<div class="form-group">
+							<label>Konfirmasi Password</label>
+							<input id="konfir-password" name="konfir-password" type="password" class="form-control" placeholder="Konfirmasi password baru">
 						</div>
 						<div class="icheck-green">
 							<input id="cek" type="checkbox">
@@ -166,10 +170,16 @@
 			$('#modal-foto').addClass('d-none');
 			$('#modal-button').on('click', function() {
 				var password = $('#password');
-				if (!password.val()) {
+				var konfir_password = $('#konfir-password');
+				if (!password.val() || !konfir_password.val()) {
 					Toast.fire({
 						icon: 'warning',
 						html: 'Password tidak boleh kosong'
+					});
+				} else if (password.val() != konfir_password.val()) {
+					Toast.fire({
+						icon: 'warning',
+						html: 'Password tidak sama'
 					});
 				} else {
 					$.ajax({

@@ -1,7 +1,7 @@
 <nav class="main-header navbar navbar-expand-md navbar-dark navbar-green border-bottom-0">
 	<div class="container">
 		<span class="navbar-brand">
-			<img src="<?= base_url('assets/img/lp3i.jpg'); ?>" alt="Logo Politeknik LP3I" class="brand-image img-circle elevation-3" style="opacity: .8">
+			<img src="<?= base_url('assets/img/icon.png'); ?>" alt="Logo Politeknik LP3I" class="brand-image img-circle elevation-3">
 			<span class="brand-text font-weight-light">Kasir App</span>
 		</span>
 		<button class="navbar-toggler order-1" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,12 +47,12 @@
 		<ul class="order-1 order-md-3 navbar-nav navbar-no-expand ml-auto">
 			<li class="nav-item dropdown user-menu">
 				<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-					<img src="<?= base_url('assets/img/') . $this->session->userdata('foto'); ?>" class="user-image img-circle elevation-3" alt="<?= $this->session->userdata('nama'); ?>">
+					<img src="<?= base_url('assets/img/' . $this->session->userdata('foto')); ?>" class="user-image img-circle elevation-3" alt="<?= $this->session->userdata('nama'); ?>">
 					<span class="d-none d-md-inline"><?= $this->session->userdata('nama'); ?></span>
 				</a>
 				<ul class="dropdown-menu dropdown-menu-lg dropdown-menu-right" style="left: inherit; right: 0px;">
 					<li class="user-header bg-green">
-						<img src="<?= base_url('assets/img/') . $this->session->userdata('foto'); ?>" class="img-circle elevation-3" alt="<?= $this->session->userdata('nama'); ?>">
+						<img src="<?= base_url('assets/img/' . $this->session->userdata('foto')); ?>" class="img-circle elevation-3" alt="<?= $this->session->userdata('nama'); ?>">
 						<p>
 							<?= $this->session->userdata('nama'); ?>
 							<small>@<?= $this->session->userdata('username'); ?></small>

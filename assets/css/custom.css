@@ -1,109 +1,154 @@
+/**
+ * @license
+ *
+ * Font Family: Supreme
+ * Designed by: Jérémie Hornus, Ilya Naumoff
+ * URL: https://www.fontshare.com/fonts/supreme
+ * © 2023 Indian Type Foundry
+ *
+*/
 @font-face {
-	font-family: 'Source Sans Pro';
+	font-family: 'Supreme';
+	src: url('../fonts/supreme/Supreme-Thin.woff2') format('woff2'),
+		url('../fonts/supreme/Supreme-Thin.woff') format('woff'),
+		url('../fonts/supreme/Supreme-Thin.ttf') format('truetype');
+	font-weight: 100;
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Supreme';
+	src: url('../fonts/supreme/Supreme-ThinItalic.woff2') format('woff2'),
+		url('../fonts/supreme/Supreme-ThinItalic.woff') format('woff'),
+		url('../fonts/supreme/Supreme-ThinItalic.ttf') format('truetype');
+	font-weight: 100;
+	font-display: swap;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Supreme';
+	src: url('../fonts/supreme/Supreme-Extralight.woff2') format('woff2'),
+		url('../fonts/supreme/Supreme-Extralight.woff') format('woff'),
+		url('../fonts/supreme/Supreme-Extralight.ttf') format('truetype');
 	font-weight: 200;
+	font-display: swap;
 	font-style: normal;
-	font-stretch: normal;
-	src: url('../fonts/source-sans/SourceSans3-ExtraLight.ttf.woff2') format('woff2'),
-		url('../fonts/source-sans/SourceSans3-ExtraLight.ttf.woff') format('woff');
 }
 
 @font-face {
-	font-family: 'Source Sans Pro';
+	font-family: 'Supreme';
+	src: url('../fonts/supreme/Supreme-ExtralightItalic.woff2') format('woff2'),
+		url('../fonts/supreme/Supreme-ExtralightItalic.woff') format('woff'),
+		url('../fonts/supreme/Supreme-ExtralightItalic.ttf') format('truetype');
 	font-weight: 200;
+	font-display: swap;
 	font-style: italic;
-	font-stretch: normal;
-	src: url('../fonts/source-sans/SourceSans3-ExtraLightIt.ttf.woff2') format('woff2'),
-		url('../fonts/source-sans/SourceSans3-ExtraLightIt.ttf.woff') format('woff');
 }
 
 @font-face {
-	font-family: 'Source Sans Pro';
+	font-family: 'Supreme';
+	src: url('../fonts/supreme/Supreme-Light.woff2') format('woff2'),
+		url('../fonts/supreme/Supreme-Light.woff') format('woff'),
+		url('../fonts/supreme/Supreme-Light.ttf') format('truetype');
 	font-weight: 300;
+	font-display: swap;
 	font-style: normal;
-	font-stretch: normal;
-	src: url('../fonts/source-sans/SourceSans3-Light.ttf.woff2') format('woff2'),
-		url('../fonts/source-sans/SourceSans3-Light.ttf.woff') format('woff');
 }
 
 @font-face {
-	font-family: 'Source Sans Pro';
+	font-family: 'Supreme';
+	src: url('../fonts/supreme/Supreme-LightItalic.woff2') format('woff2'),
+		url('../fonts/supreme/Supreme-LightItalic.woff') format('woff'),
+		url('../fonts/supreme/Supreme-LightItalic.ttf') format('truetype');
 	font-weight: 300;
+	font-display: swap;
 	font-style: italic;
-	font-stretch: normal;
-	src: url('../fonts/source-sans/SourceSans3-LightIt.ttf.woff2') format('woff2'),
-		url('../fonts/source-sans/SourceSans3-LightIt.ttf.woff') format('woff');
 }
 
 @font-face {
-	font-family: 'Source Sans Pro';
+	font-family: 'Supreme';
+	src: url('../fonts/supreme/Supreme-Regular.woff2') format('woff2'),
+		url('../fonts/supreme/Supreme-Regular.woff') format('woff'),
+		url('../fonts/supreme/Supreme-Regular.ttf') format('truetype');
 	font-weight: 400;
+	font-display: swap;
 	font-style: normal;
-	font-stretch: normal;
-	src: url('../fonts/source-sans/SourceSans3-Regular.ttf.woff2') format('woff2'),
-		url('../fonts/source-sans/SourceSans3-Regular.ttf.woff') format('woff');
 }
 
 @font-face {
-	font-family: 'Source Sans Pro';
+	font-family: 'Supreme';
+	src: url('../fonts/supreme/Supreme-Italic.woff2') format('woff2'),
+		url('../fonts/supreme/Supreme-Italic.woff') format('woff'),
+		url('../fonts/supreme/Supreme-Italic.ttf') format('truetype');
 	font-weight: 400;
+	font-display: swap;
 	font-style: italic;
-	font-stretch: normal;
-	src: url('../fonts/source-sans/SourceSans3-It.ttf.woff2') format('woff2'),
-		url('../fonts/source-sans/SourceSans3-It.ttf.woff') format('woff');
 }
 
 @font-face {
-	font-family: 'Source Sans Pro';
-	font-weight: 600;
+	font-family: 'Supreme';
+	src: url('../fonts/supreme/Supreme-Medium.woff2') format('woff2'),
+		url('../fonts/supreme/Supreme-Medium.woff') format('woff'),
+		url('../fonts/supreme/Supreme-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-display: swap;
 	font-style: normal;
-	font-stretch: normal;
-	src: url('../fonts/source-sans/SourceSans3-Semibold.ttf.woff2') format('woff2'),
-		url('../fonts/source-sans/SourceSans3-Semibold.ttf.woff') format('woff');
 }
 
 @font-face {
-	font-family: 'Source Sans Pro';
-	font-weight: 600;
+	font-family: 'Supreme';
+	src: url('../fonts/supreme/Supreme-MediumItalic.woff2') format('woff2'),
+		url('../fonts/supreme/Supreme-MediumItalic.woff') format('woff'),
+		url('../fonts/supreme/Supreme-MediumItalic.ttf') format('truetype');
+	font-weight: 500;
+	font-display: swap;
 	font-style: italic;
-	font-stretch: normal;
-	src: url('../fonts/source-sans/SourceSans3-SemiboldIt.ttf.woff2') format('woff2'),
-		url('../fonts/source-sans/SourceSans3-SemiboldIt.ttf.woff') format('woff');
 }
 
 @font-face {
-	font-family: 'Source Sans Pro';
+	font-family: 'Supreme';
+	src: url('../fonts/supreme/Supreme-Bold.woff2') format('woff2'),
+		url('../fonts/supreme/Supreme-Bold.woff') format('woff'),
+		url('../fonts/supreme/Supreme-Bold.ttf') format('truetype');
 	font-weight: 700;
+	font-display: swap;
 	font-style: normal;
-	font-stretch: normal;
-	src: url('../fonts/source-sans/SourceSans3-Bold.ttf.woff2') format('woff2'),
-		url('../fonts/source-sans/SourceSans3-Bold.ttf.woff') format('woff');
 }
 
 @font-face {
-	font-family: 'Source Sans Pro';
+	font-family: 'Supreme';
+	src: url('../fonts/supreme/Supreme-BoldItalic.woff2') format('woff2'),
+		url('../fonts/supreme/Supreme-BoldItalic.woff') format('woff'),
+		url('../fonts/supreme/Supreme-BoldItalic.ttf') format('truetype');
 	font-weight: 700;
+	font-display: swap;
 	font-style: italic;
-	font-stretch: normal;
-	src: url('../fonts/source-sans/SourceSans3-BoldIt.ttf.woff2') format('woff2'),
-		url('../fonts/source-sans/SourceSans3-BoldIt.ttf.woff') format('woff');
 }
 
 @font-face {
-	font-family: 'Source Sans Pro';
-	font-weight: 900;
+	font-family: 'Supreme';
+	src: url('../fonts/supreme/Supreme-Extrabold.woff2') format('woff2'),
+		url('../fonts/supreme/Supreme-Extrabold.woff') format('woff'),
+		url('../fonts/supreme/Supreme-Extrabold.ttf') format('truetype');
+	font-weight: 800;
+	font-display: swap;
 	font-style: normal;
-	font-stretch: normal;
-	src: url('../fonts/source-sans/SourceSans3-Black.ttf.woff2') format('woff2'),
-		url('../fonts/source-sans/SourceSans3-Black.ttf.woff') format('woff');
 }
 
 @font-face {
-	font-family: 'Source Sans Pro';
-	font-weight: 900;
+	font-family: 'Supreme';
+	src: url('../fonts/supreme/Supreme-ExtraboldItalic.woff2') format('woff2'),
+		url('../fonts/supreme/Supreme-ExtraboldItalic.woff') format('woff'),
+		url('../fonts/supreme/Supreme-ExtraboldItalic.ttf') format('truetype');
+	font-weight: 800;
+	font-display: swap;
 	font-style: italic;
-	font-stretch: normal;
-	src: url('../fonts/source-sans/SourceSans3-BlackIt.ttf.woff2') format('woff2'),
-		url('../fonts/source-sans/SourceSans3-BlackIt.ttf.woff') format('woff');
+}
+
+body {
+	font-family: 'Supreme', sans-serif !important;
 }
 
 .dropdown-item:active {
@@ -131,5 +176,3 @@
 	background-color: #28a745 !important;
 	border-color: #28a745 !important;
 }
-
-@import 'adminlte.min.css';
